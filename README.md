@@ -87,9 +87,7 @@
   **步骤一**. 通过SWIG生成C++的包装文件：
 
      ```> swig -python -c++ thosttraderapi.i```
-
-     ```> swig -python -c++ thostmduserapi.i``` 
-    
+   
     生成文件：1）thosttraderapi_wrap.cxx，thostmduserapi_wrap.cxx包含了将 ThostFtdcTraderApi，ThostFtdcMdApi 包装成 Python 模块的 C++ 代码。 2）thosttraderapi.py,thostmduserapi.py是SWIG 生成的 Python 文件，提供 Python 接口。
 
 - **常见问题**
